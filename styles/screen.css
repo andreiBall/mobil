@@ -1,0 +1,214 @@
+@CHARSET "UTF-8";
+    *{
+         margin: 0;
+		 padding: 0;
+     }
+	
+	 @font-face {
+        font-family: RobotoRegular; /* Имя шрифта */
+        src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+     }
+
+     p,
+	 a,
+	 span,
+	 input,
+	 label{
+	    font-family: RobotoRegular;
+	 }
+	
+	 html, body {
+		 max-width: 640px;
+		 min-width: 320px;
+		 margin: 0 auto;
+		 height: 100%;
+	 }
+     
+	 /*wraper начало*/
+	 #wraper {
+		 background-color: #2f2f2f;	
+		 min-height: 100%;
+	 }
+	 
+	     /*header начало*/
+	     #header {
+		    background-color: #363636;
+			background: -moz-linear-gradient(#363636, #404040,  #2f2f2f );
+            color: #fff;
+            /*height: 88px;*/
+	     }
+		 
+		     #header div {
+				display: inline-block;
+			}
+			
+			
+			 .limiting-age {
+			    width: 12%;
+				height: 12%;
+				vertical-align: middle;
+			 }
+			 
+			 .limiting-age img {
+				 width: 100%;
+				 height: auto;
+				 margin: 12px 0 0 18px;
+			 }
+
+			 .logo {
+			     margin-left: 115px;
+			 }
+			 
+			      #header p {
+					display: inline-block;
+					font-size: 36px;
+					text-transform: uppercase; 
+					color: #ffffff;
+					vertical-align: middle;
+			      }
+			 
+				 .logo-name {
+					color: #f00;
+					background-color: #ffffff;
+					border: 1% solid #000000;
+					border-radius: 0.4em;
+					font-size: 36px;
+					font-weight: bold;
+					vertical-align: middle;
+					padding: 0.5vw;
+					border: 1px solid #000000;
+				 }
+		 /*header конец*/
+		 
+	    /*video начало*/
+	    		 
+		#video {
+			position: relative;
+			padding-bottom: 70%;
+			height: 0;
+			overflow: hidden;
+			z-index: 1;
+			color: #ffffff;
+		}
+		
+		
+		
+			#video iframe,  
+			#video object,  
+			#video embed {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.information {
+			    width: 100%;
+				height: 106px;
+				background-color: rgba(89, 89, 89, 0.7);
+     		}
+			
+			    .information p {
+					font-size: 30px;
+				    position: absolute;
+					margin: 30px 0 0 20px;
+			    }
+			
+				.information-icon {
+				   height: 10%;
+				   width: 10%;
+				   display: inline-block;
+    			}
+				
+				.information-icon  img{
+					width: 100%;
+					height: auto;
+					margin: 20px 0 0 450px;
+    			}
+			
+		    #videocontrol {
+			    position:absolute;
+			    z-index: 10;
+			    width: 100%;
+				height: 100%;
+				background-color: rgba(140, 140, 140, 0.7);
+			}
+			    #video form {
+					margin: 10% 0 0 0;
+					text-align: center;
+					vertical-align: middle;
+			    }
+				
+				#triangle {
+						width: 0;
+						height: 0;
+						margin: 35px 0 0 240px;
+						border-top: 25px solid transparent;
+						border-left: 50px solid #ffffff;
+						border-bottom: 25px solid transparent;
+						position: absolute;
+			    }
+				
+					#video form input[type="button"] {
+						border: none;
+						border-radius: 0.4em;
+						font-size: 40px;
+						color: #ffffff;
+						background-color: #f00;
+						height: 110px;
+						width: 330px;
+						text-align: left;
+						padding: 0 0 0 30px;
+					}
+
+					#video form > p {
+					    font-size: 24px;
+						margin: 16px 0 30px 0;
+					}
+										
+					#video form input[type="reset"] {
+						border: 1px solid;
+						border-radius: 9px;
+						font-size: 28.53px;
+						padding: 5px 15px 5px 10px;
+						color: #ffffff;
+						background-color: #000000;
+					}
+			
+			
+ 
+	     /*video конец*/
+	     
+		 /*footer начало*/
+	     #footer {
+		     background-color: #2f2f2f;
+			 height: 30%;
+			 color: #a4a4a4;
+		 }
+		 
+		    #footer form input[type="checkbox"] {
+                 margin: 24px 10px 0 26px;
+				 display:inline-block;
+			}
+		 
+			 #footer span {
+			     font-size: 24px;
+				 margin: 29px 0 5px 0;
+				 width: 580px;
+				 display:inline-block;
+				 vertical-align: top;
+			 }
+			 
+			 #footer p {
+				 font-size: 24px;
+				 margin: 0 0 0 20px;
+			 }
+			 
+			 #footer a {
+				 font-size: 24px;
+				 color: #ffffff;
+			 }
+	     /*footer конец*/
+		 
+	 /*wraper конец*/

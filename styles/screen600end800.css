@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+/*--------------------------------------------------------------стиль 600*800 начало---------------------------------------------------------------*/
+@media only screen and (min-width : 600px) and (max-width : 768px){
+
+    /*header начало*/
+	.limiting-age {
+		width: 10%;
+		height: 10%;
+	}
+		     .limiting-age img {
+				 margin: 8px 0 0 10px;
+			 }
+
+			 .logo {
+			     margin-left: 150px;
+			 }
+			 
+			      #header p {
+					font-size: 28px;
+			      }
+			 
+				 .logo-name {
+					border: 1% solid #000000;
+					border-radius: 0.4em;
+					font-size: 28px;
+					font-weight: bold;
+					vertical-align: middle;
+					padding: 0.5vw;
+					border: 1px solid #000000;
+				 }
+	/*header конец*/
+     /*video начало*/
+	    		 
+		#video {
+			padding-bottom: 90%;
+		}
+		
+			#video iframe,  
+			#video object,  
+			#video embed {
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.information {
+			    width: 100%;
+				height: 90px;
+     		}
+			
+				.information p {
+					font-size: 25px;
+					margin: 25px 0 0 15px;
+			    }
+			
+			    .information-icon {
+				   height: 6%;
+				   width: 6%;
+    			}
+			
+				.information-icon  img{
+					margin: 20px 0 0 490px;
+    			}
+			
+		    #videocontrol {
+			    width: 100%;
+				height: 100%;
+			}
+			
+			    #video form {
+					margin: 10% 0 0 0;
+			    }
+				
+				#triangle {
+						width: 0;
+						height: 0;
+						margin: 25px 0 0 200px;
+						border-top: 25px solid transparent;
+						border-left: 50px solid #ffffff;
+						border-bottom: 25px solid transparent;
+			    }
+				
+					#video form input[type="button"] {
+						border-radius: 0.7em;
+						font-size: 34px;
+						height: 100px;
+						width: 270px;
+						padding: 0 0 0 30px;
+					}
+
+					#video form > p {
+					    font-size: 20px;
+						margin: 15px 0 25px 0;
+					}
+										
+					#video form input[type="reset"] {
+						border: 1px solid;
+						border-radius: 9px;
+						font-size: 24px;
+						padding: 5px 15px 5px 10px;
+					}
+ 
+	     /*video конец*/
+
+		  /*footer начало*/
+	     #footer {
+			 height: 30%;
+		 }
+		 
+		    #footer form input[type="checkbox"] {
+                 margin: 24px 10px 0 26px;
+			}
+		 
+			 #footer span {
+			     font-size: 18px;
+				 margin: 29px 0 5px 0;
+				 width: 450px;
+			 }
+			 
+			 #footer p {
+				 font-size: 18px;
+				 margin: 0 0 0 20px;
+			 }
+			 
+			 #footer a {
+				 font-size: 18px;
+			 }
+	     /*footer конец*/
+}
+/*--------------------------------------------------------------стиль 600*800 конец---------------------------------------------------------------*/	
+ 
